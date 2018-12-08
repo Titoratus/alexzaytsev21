@@ -18,14 +18,14 @@ wp_footer(); ?>
 				</div>
 				<div class="col-xs-12 col-md-3 offset-md-1 offset-lg-0 col-xl-2 footer_contacts">
 					<h6>Офис</h6>
-					<p><i class="fas fa-globe"></i> alfa.century21.ru</p>
-					<p><i class="fas fa-phone fa-flip-horizontal"></i> <?php echo get_option('comp_phone'); ?></p>
-					<p><i class="fas fa-envelope"></i> <?php echo get_option('comp_email'); ?></p>
+					<p><i class="icon-globe"></i> alfa.century21.ru</p>
+					<p><i class="icon-phone"></i> <?php echo get_option('comp_phone'); ?></p>
+					<p><i class="icon-mail-alt"></i> <?php echo get_option('comp_email'); ?></p>
 				</div>
-				<div class="col-md-4 col-lg-3 col-sm-12 footer_contacts">
+				<div class="col-md-5 col-sm-12 footer_contacts">
 					<h6>Агент</h6>
-					<p><i class="fas fa-phone fa-flip-horizontal"></i> <?php echo get_option('agent_phone'); ?></p>
-					<p><i class="fas fa-envelope"></i> <?php echo get_option('agent_email'); ?></p>
+					<p><i class="icon-phone"></i> <?php echo get_option('agent_phone'); ?></p>
+					<p><i class="icon-mail-alt"></i> <?php echo get_option('agent_email'); ?></p>
 				</div>				
 			</div>
 		</div>

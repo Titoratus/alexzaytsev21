@@ -40,8 +40,8 @@
 				<h5 class="company_name">Century21 <span>Альфа</span></h5>
 			</div>
 			<div class="col-7 company_data">
-				<p><i class="fas fa-phone fa-flip-horizontal"></i> <?php echo get_option('comp_phone'); ?></p>
-				<p><i class="fas fa-envelope"></i> <?php echo get_option('comp_email'); ?></p>
+				<p><i class="icon-phone"></i> <?php echo get_option('comp_phone'); ?></p>
+				<p><i class="icon-mail-alt"></i> <?php echo get_option('comp_email'); ?></p>
 			</div>
 		</div>
 	</div>
